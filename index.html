@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.typekit.net/maj0goe.css">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #163543;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+
+}
+
+
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #e0e2e6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnav b {
+  float: left;
+  display: block;
+  color: #e0e2e6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #e0e2e6;
+  color: #163543;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.bg {
+
+background-image: url("Untitled-1 copy.png");
+
+
+height: 100%; 
+
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.hero {
+     
+     background-size: cover;
+     height: 420px;
+     width: 100%;
+     text-align: center;
+     display: inline ;
+     justify-content: center;
+     align-items: center;
+}
+
+
+
+.button {
+	background-color: #163543;
+	border: 2px solid #e0e2e6;
+	border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: #e0e2e6;
+	margin-top: 10px;
+	display: inline-block;
+}
+.hover {
+		background-color: #e0e2e6;
+		color: #163543;
+		border: 2px solid #163543
+	}
+
+
+ 
+
+.modal-contents {
+	height: 25vh;
+	width: 30vw;
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+  top: 0;
+  left: 35vw;
+	border-radius: 4px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+	margin: 15px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+  .hover {
+		color: #666;
+	}
+
+
+
+</style>
+</head>
+<body>
+<header>
+<div class="topnav">
+  <a href="#">Neighborhood</a>
+  <a href="#">Amenities</a>
+  <a href="indexlayouts2.html">Layouts</a>
+  <a href="#">Home</a>
+  <b href="index.html"><img src="LogoNoWordsAsset 2.png" height="30px"></b>
+</div>'
+</header>
+
+
+<div class="bg"></div>
+<div class="caption">
+    <span class="border"><img src="PR Crown tpAsset 2@2x.png" ></span><br>
+
+
+<section class="hero">
+	<div class="hero-content">
+		
+		
+		<a href="#" id="button" class="button">Learn More</a>
+	</div>
+</section>
+
+
+
+
+<div class="bg-modal">
+	<div class="modal-contents">
+
+		<div class="close">+</div>
+		<img src="LogoNoWordsAsset 2.png" alt="">
+
+		<form action="">
+			<input type="text" placeholder="Name">
+			<input type="email" placeholder="E-Mail">
+			<a href="index.html" class="button">Submit</a>
+		</form>
+
+	</div>
+</div>
+
+  
+
+
+<script src="main.js"></script>
+</body>
+</html>
